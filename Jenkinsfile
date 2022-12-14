@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-         stage('BUILD') {
+         stage('STAGE1') {
              steps {
                  catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
                  echo "stage 1 is running..."
@@ -11,7 +11,7 @@ pipeline {
              }
              }
          }
-                stage('BUILD') {
+                stage('STAGE2') {
                     steps {
                         echo "stage 2 is running..."
                         sh 'sleep 5'
