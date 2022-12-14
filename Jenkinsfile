@@ -30,5 +30,10 @@ pipeline {
             }
         }
     }
+    post {
+        always{
+        echo "you can see always"
+        }
+    }
 }
 
