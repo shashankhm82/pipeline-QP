@@ -11,8 +11,6 @@ pipeline {
              }
              }
          }
-         }
-        stages {
                 stage('BUILD') {
                     steps {
                         echo "stage 2 is running..."
