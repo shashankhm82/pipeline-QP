@@ -19,6 +19,8 @@ pipeline {
              }
          }
             }
+    }
+    }
 //     stages {
 //         stage('BUILD') {
 //             steps {
@@ -67,5 +69,5 @@ pipeline {
 //             }
 //         }
 //     }
-}
-}
+// }
+
